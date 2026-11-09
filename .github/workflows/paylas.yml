@@ -1,0 +1,42 @@
+name: Günlük Instagram paylaşımı
+
+on:
+  schedule:
+    - cron: "0 17 * * *"   # her gün 20:00 (Türkiye saati)
+  workflow_dispatch: {}     # GitHub'dan elle "Run workflow" ile de çalışır
+
+permissions:
+  contents: write
+
+jobs:
+  paylas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sıradaki gönderiyi paylaş
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GORSEL_TABAN: https://raw.githubusercontent.com/${{ github.repository }}/main/hazir
+        run: python3 paylas.py
+      - name: Paylaşılanları kaydet
+        run: |
+          git config user.name "derinizbirak-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add paylasildi.json
+          git diff --cached --quiet || git commit -m "paylaşıldı kaydı"
+          git push
+
+  token-yenile:
+    # Instagram token'ı 60 günde ölür; her pazartesi yenilenir.
+    if: github.event.schedule == '0 17 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Token'ı yenile ve secret'ı güncelle
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          [ "$(date -u +%u)" = "1" ] || exit 0
+          YENI=$(curl -sf "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$IG_TOKEN" | python3 -c "import json,sys;print(json.load(sys.stdin)['access_token'])")
+          gh secret set IG_TOKEN --repo "${{ github.repository }}" --body "$YENI"
+          echo "Token yenilendi."
