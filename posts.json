@@ -1,0 +1,186 @@
+[
+ {
+  "ust": "herkese kapıyı açarsan",
+  "ana": "ev sokak olur.",
+  "y": 0.22,
+  "gorsel": "ov_25.jpg",
+  "renk": "beyaz"
+ },
+ {
+  "ust": "sustuğuma bakma",
+  "ana": "her şeyi gördüm.",
+  "y": 0.22,
+  "gorsel": "ov_41.jpg",
+  "renk": "auto"
+ },
+ {
+  "ust": "giden gitsin, ben",
+  "ana": "yerimdeyim.",
+  "y": 0.3,
+  "gorsel": "ov_58.jpg",
+  "renk": "auto"
+ },
+ {
+  "ust": "kalbin ne kadar temizse",
+  "ana": "o kadar kirlenir.",
+  "y": 0.28
+ },
+ {
+  "ust": "beni anlamak zorunda değilsin",
+  "ana": "ama sınırımı bil.",
+  "y": 0.28
+ },
+ {
+  "ust": "affettim diye",
+  "ana": "unuttum sanma.",
+  "y": 0.2,
+  "gorsel": "ov_47.jpg",
+  "renk": "auto"
+ },
+ {
+  "ust": "kimseye ihtiyacım yok demiyorum",
+  "ana": "seçiyorum.",
+  "y": 0.3
+ },
+ {
+  "ust": "herkes iyi niyetli değil, bazıları",
+  "ana": "sadece sessiz.",
+  "y": 0.28
+ },
+ {
+  "ust": "ağzınla değil",
+  "ana": "duruşunla konuş.",
+  "y": 0.28
+ },
+ {
+  "ust": "eksilmek değil bu",
+  "ana": "ayıklanmak.",
+  "y": 0.2,
+  "gorsel": "ov_08.jpg",
+  "renk": "siyah"
+ },
+ {
+  "ust": "çok değil",
+  "ana": "doğru insan.",
+  "y": 0.3
+ },
+ {
+  "ust": "yükselirken kimin",
+  "ana": "sustuğuna bak.",
+  "y": 0.22,
+  "gorsel": "ov_03.jpg",
+  "renk": "auto"
+ },
+ {
+  "ust": "yapılanı unutmam, ama",
+  "ana": "hesap da sormam.",
+  "y": 0.28
+ },
+ {
+  "ust": "ne kadar kalabalık olursa",
+  "ana": "o kadar yalnız.",
+  "y": 0.2,
+  "gorsel": "ov_38.jpg",
+  "renk": "auto"
+ },
+ {
+  "ust": "sana verdiğim değer",
+  "ana": "benim karakterim.",
+  "y": 0.28
+ },
+ {
+  "ust": "her gülene güvenme",
+  "ana": "dişini göster.",
+  "y": 0.28
+ },
+ {
+  "ust": "geç anladım ama",
+  "ana": "iyi anladım.",
+  "y": 0.22,
+  "gorsel": "ov_54.jpg",
+  "renk": "auto"
+ },
+ {
+  "ust": "beni kaybetmek değil, beni",
+  "ana": "hak etmemekti.",
+  "y": 0.28
+ },
+ {
+  "duzen": "alt",
+  "ana": "sessizlik",
+  "ust": "en yüksek cevaptır.",
+  "y": 0.24,
+  "gorsel": "ov_46.jpg",
+  "renk": "beyaz"
+ },
+ {
+  "duzen": "alt",
+  "ana": "vefa",
+  "ust": "her kalbe sığmayacak kadar büyüktür.",
+  "y": 0.24,
+  "gorsel": "ov_13.jpg",
+  "renk": "beyaz"
+ },
+ {
+  "duzen": "alt",
+  "ana": "az güven",
+  "ust": "çok izle.",
+  "y": 0.28
+ },
+ {
+  "duzen": "alt",
+  "ana": "huzur",
+  "ust": "uzak durduklarından gelir.",
+  "y": 0.24,
+  "gorsel": "ov_43.jpg",
+  "renk": "auto"
+ },
+ {
+  "duzen": "alt",
+  "ana": "emek",
+  "ust": "görmeyene harcanmaz.",
+  "y": 0.62
+ },
+ {
+  "duzen": "alt",
+  "ana": "zaman",
+  "ust": "herkesin maskesini düşürür.",
+  "y": 0.62
+ },
+ {
+  "ust": "yanında olanla değil",
+  "ana": "arkanda durana bak.",
+  "y": 0.2,
+  "gorsel": "ov_37.jpg",
+  "renk": "auto"
+ },
+ {
+  "ust": "her şeyi konuşmam",
+  "ana": "not alırım.",
+  "y": 0.3
+ },
+ {
+  "ust": "ben değişmedim, sadece",
+  "ana": "gözüm açıldı.",
+  "y": 0.28
+ },
+ {
+  "ust": "kimseyi tutmam, kalan",
+  "ana": "zaten kalır.",
+  "y": 0.22,
+  "gorsel": "ov_07.jpg",
+  "renk": "auto"
+ },
+ {
+  "ust": "beni yorma, çünkü",
+  "ana": "dönüş yok.",
+  "y": 0.16,
+  "gorsel": "ov_20.jpg",
+  "renk": "beyaz"
+ },
+ {
+  "ust": "dostluk dediğin söz değil",
+  "ana": "duruştur.",
+  "y": 0.3
+ }
+]

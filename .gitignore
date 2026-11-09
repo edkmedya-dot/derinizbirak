@@ -1,0 +1,5 @@
+.venv/
+aday/
+output/_*.jpg
+__pycache__/
+.DS_Store
